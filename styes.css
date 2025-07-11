@@ -54,7 +54,7 @@
   text-align: left;
   margin: 20px 40px;
   align-items: center;
-  background-color: #FFFFFF;
+
   margin: 0 200px;
   font-size: 25px;
   font-weight: 1140px;
@@ -88,3 +88,77 @@ main {
 .item-description{
   font-weight: 600;
 }
+
+
+
+
+
+
+h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+ .testimonial-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      max-width: 1140px;
+      margin: 0 auto;
+ }
+ .testimonial-card {
+      background: white;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      text-align: left;
+    }
+
+    .stars {
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .review-title {
+      font-weight: bold;
+      margin-bottom: 8px;
+      text-align: left;
+    }
+
+    .review-text {
+      font-size: 14px;
+      margin-bottom: 15px;
+      color: #333;
+      text-align: left;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .reviewer img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .reviewer-info {
+      font-size: 13px;
+      color: #666;
+      text-align: left;
+    }
+.solo {
+  text-align: left;
+}  
+body {
+      font-family: sans-serif;
+      background: #f6f6f6;
+      margin: 0;
+      padding: 40px;
+      text-align: center;
+    }
