@@ -49,37 +49,12 @@
     height: 698px;
   
   }
-.banner-content {
-  
-  text-align: left;
-  margin: 20px 40px;
-  align-items: center;
 
-  margin: 0 200px;
-  font-size: 25px;
-  font-weight: 1140px;
-  height: 328px;
-}
-.banner {
-  display: flex;
-  text-align: right;
-  justify-content: space-between;
-  margin: 25px 35px 0 130px;
-  border-radius: 50px;
 
-}
-.about {
-  background-color: rgba(78, 71, 255, 0.29);
-  text-align: center;
-  justify-content: space-between;
-  border-radius: 40px;
-  font-size: 20px;
-  
-}
-main {
-  max-width: 1140px;
-  margin: 0 auto;
-}    
+
+
+
+
 
 .about-items {
   display: flex;
@@ -88,7 +63,33 @@ main {
 .item-description{
   font-weight: 600;
 }
-
+.stats-section {
+      background: #e6deff;
+      padding: 40px 20px;
+      border-radius: 16px;
+      max-width: 1000px;
+      margin: 40px auto;
+      text-align: center;
+      justify-content: space-around;
+    }
+    .stars-box {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .stat-item {
+      flex: 1 1 200px;
+    }
+.stat-number {
+  font-size: 36px;
+  font-weight: bold;
+  color: #5b27e8;
+}
+.stat-label {
+  font-size: 16px;
+  color: #333;
+}
 
 
 
@@ -155,10 +156,74 @@ h2 {
 .solo {
   text-align: left;
 }  
-body {
-      font-family: sans-serif;
-      background: #f6f6f6;
-      margin: 0;
-      padding: 40px;
-      text-align: center;
-    }
+ 
+   
+
+
+
+
+.content-solo {
+
+  padding: 120px 200px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.content-box h1 {
+         font-size: 36px;
+         margin-bottom: 30px;
+}
+.content-box input {
+  width: 100%;
+  color: white;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 20px;
+  
+}
+body  {
+  background-color: #D6DDED nano;
+}
+
+
+
+
+.footer-body {
+  font-weight: 291px;
+  margin: 0 0 5px;
+  height: 121px;
+  font-size: 70px;
+  text-align: center;
+  color: #4E47FF;
+}
+.footer {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}     
+
+nav li a {
+  text-decoration: none;
+
+}
+nav li {
+  list-style: none;
+  display: inline;
+  margin: 20px;
+  font-style: 35px;
+
+}
+nav ul {
+  text-align: center;
+}
+nav ul :hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+
+
+
+
